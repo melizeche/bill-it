@@ -27,9 +27,9 @@ gem 'whenever', :require => false
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
-  gem 'guard-bundler'
-  gem 'guard-rails'
-  gem 'guard-rspec'
+  gem 'guard-bundler', '>= 2.0.0'
+  gem 'guard-rails', '>= 0.5.0'
+  gem 'guard-rspec', '>= 3.1.0'
   gem 'awesome_print'
   gem 'newrelic_rpm'
 end
