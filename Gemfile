@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2'
-gem "jquery-rails", "~> 2.2"
+gem 'rails', '~> 3.2', '>= 3.2.14'
+gem "jquery-rails", "~> 2.3", ">= 2.3.0"
 
 gem 'haml-rails', '~> 0.4'
 
 #Search
-gem 'sunspot_mongoid2'
+gem 'sunspot_mongoid2', '>= 0.5.1.5'
 gem 'sunspot_solr'
 gem 'sunspot_cell', :git => 'git://github.com/zheileman/sunspot_cell.git'
 gem 'sunspot_cell_jars'
@@ -14,19 +14,19 @@ gem 'progress_bar'
 
 #Representers
 # gem 'roar', '~> 0.11.19'
-gem 'roar-rails', "0.1.0"
+gem 'roar-rails', '0.1.0'
 gem 'billit_representers', '0.9.0'
 gem 'will_paginate', '~> 3.0'
 
 #Dates
-gem 'business_time'
+gem 'business_time', '>= 0.7.1'
 
 #Clean ruby syntax for writing and deploying cron jobs
-gem 'whenever', :require => false
+gem 'whenever', '>= 0.9.2', :require => false
 
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
+  gem 'rspec-rails', '>= 2.13.2'
+  gem 'factory_girl_rails', '>= 4.2.1'
   gem 'guard-bundler'
   gem 'guard-rails'
   gem 'guard-rspec'
@@ -36,6 +36,6 @@ end
 
 group :test do
   gem 'database_cleaner'
-  gem 'faker'
+  gem 'faker', '>= 1.1.2'
   gem 'webmock'
 end
