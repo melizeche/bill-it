@@ -37,5 +37,5 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'faker'
-  gem 'webmock'
+  gem 'webmock', '>= 1.13.0'
 end
