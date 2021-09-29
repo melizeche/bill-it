@@ -6,7 +6,7 @@ gem "jquery-rails", "~> 2.2"
 gem 'haml-rails', '~> 0.4'
 
 #Search
-gem 'sunspot_mongoid2'
+gem 'sunspot_mongoid2', '>= 0.5.1.5'
 gem 'sunspot_solr'
 gem 'sunspot_cell', :git => 'git://github.com/zheileman/sunspot_cell.git'
 gem 'sunspot_cell_jars'
@@ -14,7 +14,7 @@ gem 'progress_bar'
 
 #Representers
 # gem 'roar', '~> 0.11.19'
-gem 'roar-rails', "0.1.0"
+gem 'roar-rails', '0.1.0'
 gem 'billit_representers', '0.9.0'
 gem 'will_paginate', '~> 3.0'
 
