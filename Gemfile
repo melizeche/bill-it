@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2'
-gem "jquery-rails", "~> 2.2"
+gem 'rails', '~> 6.1', '>= 6.1.7.3'
+gem "jquery-rails", "~> 4.0", ">= 4.0.1"
 
-gem 'haml-rails', '~> 0.4'
+gem 'haml-rails', '~> 0.5', '>= 0.5.3'
 
 #Search
 gem 'sunspot_mongoid2'
