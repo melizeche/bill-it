@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2'
-gem "jquery-rails", "~> 2.2"
+gem 'rails', '~> 6.1', '>= 6.1.7.3'
+gem "jquery-rails", "~> 4.4", ">= 4.4.0"
 
-gem 'haml-rails', '~> 0.4'
+gem 'haml-rails', '~> 1.0', '>= 1.0.0'
 
 #Search
 gem 'sunspot_mongoid2'
@@ -16,7 +16,7 @@ gem 'progress_bar'
 # gem 'roar', '~> 0.11.19'
 gem 'roar-rails', "0.1.0"
 gem 'billit_representers', '0.9.0'
-gem 'will_paginate', '~> 3.0'
+gem 'will_paginate', '~> 3.0', '>= 3.0.5'
 
 #Dates
 gem 'business_time'
