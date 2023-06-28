@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2'
-gem "jquery-rails", "~> 2.2"
+gem 'rails', '~> 6.1', '>= 6.1.7.4'
+gem "jquery-rails", "~> 4.0", ">= 4.0.1"
 
-gem 'haml-rails', '~> 0.4'
+gem 'haml-rails', '~> 0.5', '>= 0.5.3'
 
 #Search
 gem 'sunspot_mongoid2'
@@ -14,8 +14,8 @@ gem 'progress_bar'
 
 #Representers
 # gem 'roar', '~> 0.11.19'
-gem 'roar-rails', "0.1.0"
-gem 'billit_representers', '0.9.0'
+gem 'roar-rails', '0.1.1'
+gem 'billit_representers', '0.9.1'
 gem 'will_paginate', '~> 3.0'
 
 #Dates
@@ -25,8 +25,8 @@ gem 'business_time'
 gem 'whenever', :require => false
 
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
+  gem 'rspec-rails', '>= 2.14.0'
+  gem 'factory_girl_rails', '>= 4.3.0'
   gem 'guard-bundler'
   gem 'guard-rails'
   gem 'guard-rspec'
