@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2'
-gem "jquery-rails", "~> 2.2"
+gem 'rails', '~> 4.0', '>= 4.0.0'
+gem "jquery-rails", "~> 4.0", ">= 4.0.0"
 
-gem 'haml-rails', '~> 0.4'
+gem 'haml-rails', '~> 0.5', '>= 0.5.1'
 
 #Search
 gem 'sunspot_mongoid2'
@@ -25,7 +25,7 @@ gem 'business_time'
 gem 'whenever', :require => false
 
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 4.0.0'
   gem 'factory_girl_rails'
   gem 'guard-bundler'
   gem 'guard-rails'
